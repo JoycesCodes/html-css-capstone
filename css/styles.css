@@ -2,6 +2,10 @@ body{
     background-color: #f5f0f1;
 
 }
+/*header{
+    position: absolute;
+    top: 0;
+}*/
 .italics{
     font-style: italic;
 }
