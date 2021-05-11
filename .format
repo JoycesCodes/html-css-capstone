@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Registeration</title>
+        <title>Login</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/register.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     </head>
@@ -32,28 +31,7 @@
           </nav>
         </header>
         <main>
-            <form action="action_page.php">
-                <div class="container">
-                  <h2>Register</h2>
-                  <p>Please fill in this form to create an account.</p>
-              
-                  <label for="email"><b>Email</b></label>
-                  <input type="text" placeholder="Enter Email" name="email" id="email" required>
-              
-                  <label for="psw"><b>Password</b></label>
-                  <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-              
-                  <label for="psw-repeat"><b>Repeat Password</b></label>
-                  <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
-              
-                  <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-                  <button type="submit" class="registerbtn">Register</button>
-                </div>
-              
-                <div class="container signin">
-                  <p>Already have an account? <a href="login.html">Sign in</a>.</p>
-                </div>
-              </form>
+
         </main>
         <footer>
             
