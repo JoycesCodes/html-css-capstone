@@ -1,9 +1,10 @@
+h3{
+    text-align: center;
+}
 form{
-    margin: 0 auto;
-    width: 500px;
-    padding: 1em;
-    border: 1px solid #CCC;
-    border-radius: 1em;
+    border: 3px solid #f1f1f1;
+    margin: 40px auto;
+    width: 75%;    
 }
 ul{
     list-style: none;
@@ -22,7 +23,8 @@ input, textarea{
     font: 1em, sans-serif;
     width: 300px;
     box-sizing: border-box;
-    border: 1px solid #999;
+    border: 1px solid rgb(202, 195, 195);
+    background: #f1f1f1;
 }
 input:focus, textarea:focus{
     border-color: #000;
@@ -37,3 +39,9 @@ textarea{
 button{
     margin-left: .5em;
 }
+
+@media screen and (min-width: 1280px) {
+    form{
+      width: 500px;
+    }
+  }
