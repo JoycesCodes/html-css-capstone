@@ -22,6 +22,6 @@ body, .jumbotron{
     font-size: 38pt;
 }
 footer{
-    display: inline-flexbox;
-    justify-content: baseline;
+    position: relative;
+    bottom: 0;
 }

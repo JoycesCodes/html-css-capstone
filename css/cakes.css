@@ -1,10 +1,18 @@
 .card img{
     height: 18rem;
     }
-.cards{
+.card{
     text-align: center;
-    padding-bottom: 20px;
 }
 .card h5{
     font-size: 17px;
+}
+#card1, #card2, #card3, #card4, #card5{
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 900px){
+    #card4, #card5{
+        grid-column: auto;
+    }
 }
