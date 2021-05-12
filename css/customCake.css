@@ -2,3 +2,23 @@ select{
     width: 50%;
     margin: auto;
 }
+.display-4{
+    font-size: 30px;
+}
+table{
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+}
+tr{
+
+    border-top: 1px solid #ddb9b9;
+    border-bottom: 1px solid #ddb9b9;
+    border-collapse: collapse;
+}
+
+@media screen and (max-width: 900px) {
+    table{
+        width: 75%;
+    }
+}
