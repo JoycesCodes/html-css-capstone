@@ -1,4 +1,4 @@
-body{
+body, .jumbotron{
     background-color: #f5f0f1;
 
 }
@@ -8,6 +8,7 @@ body{
 }*/
 .italics{
     font-style: italic;
+    font-family: 'Dancing Script', cursive;
 }
 .slogan{
     font-family: 'Dancing Script', cursive;
@@ -16,6 +17,9 @@ body{
 .logo {
     font-family: 'Dancing Script', cursive;
     font-size: 52pt;
+}
+.display-4{
+    font-size: 38pt;
 }
 footer{
     display: inline-flexbox;
