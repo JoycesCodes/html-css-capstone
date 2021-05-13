@@ -1,0 +1,42 @@
+
+div.jumbotron{
+    padding-top: 10px;
+    padding-block-end: 17%;
+}
+.row {
+    border-top: #dbadad 1px solid;
+    border-bottom: #dbadad 1px solid;
+    border-collapse: collapse;
+    padding: 10px;
+    width: 75%;
+}
+main img{
+    float:left;
+    width: 15%;
+}
+main p{
+    padding-left: 30px;
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+ 
+}
+.price{
+    float: right;
+    font-size: 20px;
+    padding-left: 60%;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+main a {
+    color: white;
+}
+div.chckbtn{
+    position: absolute;
+    bottom: 20%;
+    left:80%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-right: 20px;
+
+}
