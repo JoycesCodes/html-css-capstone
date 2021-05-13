@@ -1,7 +1,13 @@
-form {
-   border: 3px solid #f1f1f1;
+main{
+  background-image: url(../images/background.png);
+  background-repeat:repeat;
+  padding-block-end: 7.9%;
  }
-  
+ hr{
+   padding-top: 0;
+   margin-top: 0;
+ }
+
 input[type=text], input[type=password] {
     width: 100%;
     padding: 12px 20px;
@@ -22,12 +28,11 @@ input[type=text], input[type=password] {
     width: 100%;
   }
   
-  button:hover {
-    opacity: 0.8;
-  }
-
   .container {
     padding: 16px;
+  }
+  .signup{
+    padding-bottom: 30px;
   }
 .signup p{
   float: left;
@@ -46,14 +51,5 @@ input[type=text], input[type=password] {
     form{
       margin: 0 auto;
       width: 50%;
-    }
-    footer{
-      position: absolute;
-      bottom: 0;
-    }
-  }
-  @media screen and (min-width: 300px) {
-    footer{
-      position: absolute;
     }
   }
