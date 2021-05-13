@@ -21,6 +21,9 @@ body, .jumbotron{
 .display-4{
     font-size: 38pt;
 }
+.icon{
+    width: 18pt;
+}
 footer{
     position: relative;
     bottom: 0;
