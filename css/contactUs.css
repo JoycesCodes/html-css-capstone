@@ -1,23 +1,6 @@
-/*h3{
-    text-align: center;
+footer{
+    position: fixed;
 }
-form{
-    border: 3px solid #f1f1f1;
-    margin: 40px auto;
-    width: 75%;    
-}
-
-form li+li{
-    margin-top: 1em;
-}
-input:focus, textarea:focus{
-    border-color: #000;
-}
-textarea{
-    vertical-align: top;
-    height: 5em;
-}
-*/
 input, textarea{
     font: 1em, sans-serif;
     width: 300px;

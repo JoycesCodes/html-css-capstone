@@ -1,0 +1,9 @@
+.jumbotron{
+    background-color: #e6c4dd85;
+    padding: 0;
+}
+.jumbotron img{
+    margin: 0 auto;
+    width: 500px;
+    height: 490px;
+}
