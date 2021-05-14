@@ -33,7 +33,7 @@ main a {
 }
 div.chckbtn{
     position: absolute;
-    bottom: 20%;
+    top:90%;
     left:80%;
     margin-bottom: 0;
     padding-bottom: 0;

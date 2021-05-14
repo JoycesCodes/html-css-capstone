@@ -24,6 +24,13 @@ body, .jumbotron{
 .icon{
     width: 18pt;
 }
+header img{
+    width: 19%;
+}
+.icon{
+    margin-bottom: 7px;
+    padding: auto;
+}
  footer{
     position: relative;
     bottom: 0;
